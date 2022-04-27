@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.currency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: #5fbaa7;
+}
+
+h1,
+p {
+  text-align: center;
+}
+.currency select {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  padding: 0.3rem 0.5rem;
+}
+
+.swap-rate-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  cursor: pointer;
+  color: #5fbaa7;
+}
+.swap-rate-container button {
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  background-color: #5fbaa7;
+  color: white;
+}
